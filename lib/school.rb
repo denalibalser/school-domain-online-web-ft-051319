@@ -6,11 +6,9 @@ class School
     @roster = {}
   end
 
-  NEW = {}
-
-  def add_student=(add_student)
-    @add_student = add_student
-
+  def add_student(student, level)
+    roster[level] ||= []
+    roster[level] << student
   end
 
   def add_student
