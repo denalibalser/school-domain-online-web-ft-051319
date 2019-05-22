@@ -7,7 +7,7 @@ class School
   end
 
   def add_student(student, level)
-    roster[level] ||= []   #researched ||=, and think I understand it, but may need clarification 
+    roster[level] ||= []   #researched ||=, and think I understand it, but may need clarification
     roster[level] << student
   end
 
