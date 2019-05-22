@@ -2,10 +2,10 @@ class School
   def initialize(name)
     @name = name
     ROSTER = {}
-    
+
 
   end
-
+  ROSTER = {}
   def add_student=(add_student)
     @add_student = add_student
 
